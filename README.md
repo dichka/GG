@@ -4,7 +4,8 @@ Key skills:
 2.   F-stings
 <<<<<<< HEAD
 
-Examples:
+Examples:\
+\
 <img src="https://github.com/dichka/GG/blob/main/img/Screen.png" />
 <img src="https://github.com/dichka/GG/blob/main/img/Screen2.png" />
 
