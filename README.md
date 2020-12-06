@@ -2,7 +2,7 @@
 Key skills:
 1.   Database (sqlite3)
 2.   F-stings
-<<<<<<< HEAD
+
 
 Examples:\
 \
