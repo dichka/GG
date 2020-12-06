@@ -20,10 +20,7 @@ WHERE VK_patern.number = {number}
 cur.execute(sql)
 result = cur.fetchone()
 cur.close()
-print('-------------------------')
-print('Запись для нижнего описания YouTube, ВК \n')
-print(f'Гитарные посиделки {number} {result[0]}\n{result[1]}')
-print('\n-------------------------\n')
+
 
 for i in range(len(cover_youtube)):
     name.append(input(cover_youtube[i]))
@@ -55,6 +52,7 @@ for i in range(len(names)):
 
 ispoln = ', '.join(ispoln)
 
-print('Верхняя обложка для ВК\n')
-print(f'{name[0]} - {name[1]}\nИсполняют: {ispoln}')
-print('-------------------------')
+print('Обложка для ВК\n')
+print(f'{name[0]} - {name[1]}\nИсполняют: {ispoln}\n')
+print(f'Гитарные посиделки {number} {result[0]}\n{result[1]}')
+print('\n-------------------------\n')
